@@ -1,2 +1,4 @@
 - [[On search problems]]
 - [[On CSP]]
+- [[On propositional resolution]]
+- [[On First-Order Logic]]

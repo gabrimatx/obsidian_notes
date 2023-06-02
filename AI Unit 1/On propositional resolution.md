@@ -1,0 +1,2 @@
+- **Forward chaining** resolves in $O(var(\Gamma))$ and needs a set of **horn clauses** to work (and also starting **facts**).
+- Always remember to work with $\nvDash \Gamma \wedge \neg \psi$  when proving with **propositional resolution** and **tableux**.  

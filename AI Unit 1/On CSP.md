@@ -1,0 +1,1 @@
+- The **Max-degree** heuristic does not require extrinsic information because it depends only on the particular problem structure.

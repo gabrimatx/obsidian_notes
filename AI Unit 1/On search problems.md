@@ -6,7 +6,7 @@
 	- BFS: Depth ASC.
 	- DFS: Depth DESC.
 	- Greedy best first: $h(n)$. 
-	- A*: $h(n_2)+c(n_1,a,n_2)$.
+	- A*: $h(n_2)+c(n_1,a,n_2)+path\_cost(n_1)$.
 - When doing the table steps, frontier and assignments the notation is the following:
 
 | Steps | Frontier | Assignment|

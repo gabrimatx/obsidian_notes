@@ -17,3 +17,8 @@
 		- Remove all occurrencies of $\rightarrow, \leftrightarrow$.
 		- Pushh all $\neg$ inwards.
 - Be careful of quantifier scopes (my common distraction error).
+- A formula is clean $\iff$ :
+	1. All the occurrences of a variable are free, or none is.
+	2. Every two occurrences of quantifiers 
+	
+- Every formula can be transformed into a clean formula.

@@ -8,3 +8,16 @@
 	- DFS: Depth DESC.
 	- Greedy best first: $h(n)$. 
 	- A*: $h(n_2)+c(n_1,a,n_2)$.
+- When doing the table steps, frontier and assignments the notation is the following:
+
+| Steps | Frontier | Assignment|
+|-------|---------|-------------|
+| 0 | $<n_0^0>$ | $s_0^0 \rightarrow n_0^0$ |
+| n| $<n_j^k,n_i^l,...>$|$s_j\rightarrow n_j^k$ |
+Where the notation is $j=$state and $k=$frontier_added_step in $n_j^k$.
+
+
+
+
+
+

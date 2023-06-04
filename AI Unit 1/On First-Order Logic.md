@@ -11,3 +11,10 @@
 	5. Remove universal quantifiers.
 - The interpretation of predicates is the set for which they evaluate to true.
 - Predicates and $\top,\bot$ are atomic formulas.
+- Every constant symbol $c$ is a **term**, every variable $x$ is a term. If $t_1,...,t_n$ are terms then $f(t_1,...,t_n)$ is a term. A term with no variables is called **ground term**.
+- Consider the two predicates $R(f(x),z)\ \text{and}\ R(f(c),x)$, they unify because $x,z$ on the same position means that they share the same domain, so the two atomic formulae unify under $\sigma=\{\{x/c,z/c\},\cdot\}$.
+- When converting to prenex CNF, describe what each step means. Example:
+	- Conversion to NNF:
+		- Remove all occurrencies of $\rightarrow, \leftrightarrow$.
+		- Pushh all $\neg$ inwards.
+- Be careful of quantifier scopes (my common distraction error).

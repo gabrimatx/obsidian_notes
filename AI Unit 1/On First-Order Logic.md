@@ -1,4 +1,3 @@
-- When renaming, constants cannot be changed and also you can't rename two different variables into the same constant.
 - **Constants** are **functions** of $\text{arity}\ 0$.
 - $\text{The formula does not contain free variables} \implies \text{closed formula or sentence}$
 - $\text{The formula does not contain any variable} \implies \text{ground formula}$
